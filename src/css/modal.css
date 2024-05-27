@@ -1,0 +1,39 @@
+/* CSS untuk modal */
+.modal {
+    display: none; /* Modal defaultnya disembunyikan */
+    position: fixed; /* Tetap di layar */
+    z-index: 1; /* Tingkatkan indeks z untuk menempatkan modal di atas konten lain */
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    overflow: auto; /* Mungkin perlu untuk konten panjang */
+    background-color: rgb(0,0,0); /* Warna latar belakang */
+    background-color: rgba(0,0,0,0.4); /* Warna latar belakang dengan opasitas */
+}
+
+/* Konten modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Atur posisi vertikal secara fleksibel */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Atur lebar konten modal */
+    text-align: center; /* Pusatkan teks dalam modal */
+}
+
+/* Tombol tutup modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px; /* Atur margin atas untuk mendekati pesan */
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

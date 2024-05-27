@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px;
+    font-family: sans-serif;
+    background: #f8f9fa;
+    max-width: 1000px;
+  }
+  
+  .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .logo span {
+      font-size: 36px;
+      margin-right: 5px;
+    }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #777;
+    text-align: center;
+  }
+  
+  .save-banner {
+    background-color: #e0f2f7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    color: #343434;
+  }
+  
+  .packages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mengatur 3 kolom */
+    gap: 50px;
+    margin-top: 15px;
+  }
+  
+  .package {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    color: #343434;
+  
+  }
+  
+  .price {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #343434;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  
+  }
+  
+  .features li {
+    margin-bottom: 5px;
+  }
+  
+  .button {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .button:hover {
+    background-color: #b8a4a4;
+  }
+  
+  .button-status {
+    margin-left: 10px;
+  }
